@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
           content="A Dynamic Open Graph Image Generator With URL. Effortlessly generate stunning Open Graph Images with just a URL using our API."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://dogimg.vercel.app/" />
+        <meta property="og:url" content="https://ogimage.brixyazilim.com/" />
         <meta property="og:site_name" content="DOGimg" />
         <meta
           property="og:title"
@@ -30,10 +30,10 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://dogimg.vercel.app/api/og?url=https://dogimg.vercel.app/"
+          content="https://ogimage.brixyazilim.com/api/og?url=https://ogimage.brixyazilim.com/"
         />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://dogimg.vercel.app/" />
+        <meta property="twitter:url" content="https://ogimage.brixyazilim.com/" />
         <meta
           property="twitter:title"
           content="DOGimg - Dynamic Open Graph Image Generator With URL"
@@ -44,9 +44,9 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           property="twitter:image"
-          content="https://dogimg.vercel.app/api/og?url=https://dogimg.vercel.app/"
+          content="https://ogimage.brixyazilim.com/api/og?url=https://ogimage.brixyazilim.com/"
         />
-        <link rel="canonical" href="https://dogimg.vercel.app/" />
+        <link rel="canonical" href="https://ogimage.brixyazilim.com/" />
         <link rel="apple-touch-icon" href="/dog.svg" />
         <meta name="theme-color" content="#67e8f9" />
         <meta name="msapplication-TileColor" content="#67e8f9" />
