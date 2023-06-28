@@ -79,13 +79,7 @@ export default async function handler(req: NextRequest) {
                 />
               )
             }
-           <center> <div
-              style={{
-                margin: "auto 0px auto 0px",
-              }}
-            >
-              {shortenString(metaData.site_name, 30)}
-            </div> </center>
+           
           </div>
           <div
             style={{
