@@ -62,7 +62,7 @@ export default async function handler(req: NextRequest) {
             style={{
               display: "flex",
               margin: "40px",
-              fontSize: "50px",
+              fontSize: "40px",
               color: "#222222",
             }}
           >
@@ -92,9 +92,9 @@ export default async function handler(req: NextRequest) {
               margin: "0px 40px 0px 40px",
               minHeight: "100px",
               maxHeight: "200px",
-              fontSize: "70px",
+              fontSize: "60px",
               fontWeight: "700",
-              color: "#333333",
+              color: "#e134ed",
               lineHeight: "100%",
               wordBreak: "break-word",
             }}
@@ -104,7 +104,7 @@ export default async function handler(req: NextRequest) {
           <div
             style={{
               margin: "40px",
-              fontSize: "30px",
+              fontSize: "25px",
               color: "#555555",
             }}
           >
