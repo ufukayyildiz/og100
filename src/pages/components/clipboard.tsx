@@ -5,7 +5,7 @@ interface ClipboardProps {
 }
 
 const getMetaTag = (url: string) =>
-  `<meta property="og:image" content="https://dogimg.vercel.app/api/og?url=${url}" />`;
+  `<meta property="og:image" content="https://ogimage.brixyazilim.com/api/og?url=${url}" />`;
 
 const Clipboard: React.FC<ClipboardProps> = ({ url }) => {
   const [isCopied, setIsCopied] = useState(false);
