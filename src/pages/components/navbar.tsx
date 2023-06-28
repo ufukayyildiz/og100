@@ -22,7 +22,7 @@ export default function Navbar() {
 
           <div className="flex items-center space-x-1">
             <a
-              href="https://github.com/zeikar/dogimg"
+              href="https://github.com/ufukayyildiz/ogimage"
               target="_blank"
               rel="noreferrer"
             >
