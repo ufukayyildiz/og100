@@ -9,8 +9,8 @@ export default function Navbar() {
             <div>
               <div className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
                 <Image
-                  src="/dog.svg"
-                  alt="DOGimg Logo"
+                  src="/by.svg"
+                  alt="Brix Yazılım"
                   className="rounded-full"
                   width={40}
                   height={40}
