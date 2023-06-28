@@ -12,7 +12,7 @@ function getURLFromRequest(req: NextRequest) {
   let url = searchParams.get("url")?.trim();
 
   if (!url) {
-    return "https://github.com/zeikar/dogimg";
+    return "https://github.com/ufukayyildiz/ogimage";
   }
 
   if (!url.startsWith("http")) {
