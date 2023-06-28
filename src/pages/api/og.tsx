@@ -55,7 +55,7 @@ export default async function handler(req: NextRequest) {
             width: "100%",
             height: "100%",
             // linear-gradient
-            background: `linear-gradient(0, ${metaData.color} 0%, #ffffff 30%)`,
+            background: `linear-gradient(0, ${metaData.color} 0%, #f50ae1 30%)`,
           }}
         >
           <div
@@ -88,7 +88,7 @@ export default async function handler(req: NextRequest) {
               maxHeight: "200px",
               fontSize: "60px",
               fontWeight: "700",
-              color: "#e134ed",
+              color: "#FFFFFF",
               lineHeight: "100%",
               wordBreak: "break-word",
             }}
