@@ -41,9 +41,7 @@ const InputForm = ({ handleSubmit }: InputFormProps) => {
       </form>
       <div className="mx-auto text-center text-gray-600">
         Try these:
-        <ClickItem url="https://github.com" onClick={selectUrl} />
-        <ClickItem url="https://vercel.com" onClick={selectUrl} />
-        <ClickItem url="https://nextjs.org" onClick={selectUrl} />
+        <ClickItem url="https://fstdesk.com/" onClick={selectUrl} />
       </div>
     </div>
   );
