@@ -99,7 +99,7 @@ export default async function handler(req: NextRequest) {
               wordBreak: "break-word",
             }}
           >
-            {shortenString(metaData.title, 60)}
+            {shortenString(metaData.title, 160)}
           </div>
           <div
             style={{
