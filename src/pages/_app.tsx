@@ -8,10 +8,10 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>DOGimg - Dynamic Open Graph Image Generator With URL</title>
+        <title>Brix Yazılım - Dynamic Open Graph Image Generator With URL</title>
         <meta
           name="title"
-          content="DOGimg - Dynamic Open Graph Image Generator With URL"
+          content="Brix Yazılım - Dynamic Open Graph Image Generator With URL"
         />
         <meta
           name="description"
@@ -19,10 +19,10 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ogimage.brixyazilim.com/" />
-        <meta property="og:site_name" content="DOGimg" />
+        <meta property="og:site_name" content="Brix Yazılım" />
         <meta
           property="og:title"
-          content="DOGimg - Dynamic Open Graph Image Generator With URL"
+          content="Brix Yazılım - Dynamic Open Graph Image Generator With URL"
         />
         <meta
           property="og:description"
@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="twitter:url" content="https://ogimage.brixyazilim.com/" />
         <meta
           property="twitter:title"
-          content="DOGimg - Dynamic Open Graph Image Generator With URL"
+          content="Brix Yazılım - Dynamic Open Graph Image Generator With URL"
         />
         <meta
           property="twitter:description"
@@ -47,15 +47,15 @@ export default function App({ Component, pageProps }: AppProps) {
           content="https://ogimage.brixyazilim.com/api/og?url=https://ogimage.brixyazilim.com/"
         />
         <link rel="canonical" href="https://ogimage.brixyazilim.com/" />
-        <link rel="apple-touch-icon" href="/dog.svg" />
+        <link rel="apple-touch-icon" href="/by.svg" />
         <meta name="theme-color" content="#67e8f9" />
         <meta name="msapplication-TileColor" content="#67e8f9" />
-        <meta name="msapplication-TileImage" content="/dog.svg" />
-        <meta name="application-name" content="DOGimg" />
-        <meta name="apple-mobile-web-app-title" content="DOGimg" />
+        <meta name="msapplication-TileImage" content="/by.svg" />
+        <meta name="application-name" content="Brix Yazılım" />
+        <meta name="apple-mobile-web-app-title" content="Brix Yazılım" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/dog.svg" />
+        <link rel="icon" href="/by.svg" />
       </Head>
       <Component {...pageProps} />
       <Analytics />
