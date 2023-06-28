@@ -79,13 +79,13 @@ export default async function handler(req: NextRequest) {
                 />
               )
             }
-            <div
+           <center> <div
               style={{
                 margin: "auto 0px auto 0px",
               }}
             >
               {shortenString(metaData.site_name, 30)}
-            </div>
+            </div> </center>
           </div>
           <div
             style={{
@@ -99,17 +99,17 @@ export default async function handler(req: NextRequest) {
               wordBreak: "break-word",
             }}
           >
-            {shortenString(metaData.title, 160)}
+            {shortenString(metaData.title, 140)}
           </div>
-          <div
+       <center>   <div
             style={{
               margin: "40px",
               fontSize: "25px",
               color: "#555555",
             }}
           >
-            {shortenString(metaData.description, 220)}
-          </div>
+            {shortenString(metaData.description, 200)}
+          </div> </center>
         </div>
       ),
       {
