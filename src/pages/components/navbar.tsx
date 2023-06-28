@@ -15,7 +15,7 @@ export default function Navbar() {
                   width={40}
                   height={40}
                 />
-                <span className="font-bold">DOGimg</span>
+                <span className="font-bold"> Brix Yazılım</span>
               </div>
             </div>
           </div>
