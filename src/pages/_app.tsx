@@ -59,7 +59,9 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
       <Analytics />
+       <center>
       <a href="https://beta.publishers.adsterra.com/referral/7qKij1JbS3"><img alt="banner" src="https://landings-cdn.adsterratech.com/referralBanners/gif/720x90_adsterra_reff.gif" /></a>
+       </center>
     </>
   );
 }
