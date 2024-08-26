@@ -102,7 +102,7 @@ export default async function handler(req: NextRequest) {
               color: "#555555",
             }}
           >
-            {shortenString(metaData.description, 200)}
+            
           </div> </center>
         </div>
       ),
